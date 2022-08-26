@@ -49,15 +49,15 @@ class CourseController extends Controller
         ]);
 
         $data = new Course();
-        $file = $request->image->getClientOriginalName();
+        //$file = $request->image->getClientOriginalName();
         
         $data->title = $request->title;
         $data->duration = $request->duration;
         $data->price = $request->price;
         $data->discount_price = $request->discount_price;
         $data->description = $request->description;
-        $request->image->move(public_path("course_images"), $file);
-        $data->image = $file;
+        //$request->image->move(public_path("course_images"), $file);
+        //$data->image = $file;
         $data->save();
 
         return redirect()->route('course.index');

@@ -1,5 +1,5 @@
 <div class="bg-white py-4 shadow-lg flex justify-between px-10 items-center">
-    <h1 class="font-bold font-sans uppercase text-2xl text-purple-700">Cws Portal</h1>
+    <a href="" class="font-bold font-sans uppercase text-2xl text-purple-700">Cws Portal</a>
     <form action="" class="flex gap-0">
         <input type="search" placeholder="Search Any Course" class="border border-purple-600 px-5 rounded-tl-lg rounded-bl-lg border-r-0" size="60">
         <button type="submit" class="border text-white border-purple-300 rounded-tr-lg rounded-br-lg p-2 bg-purple-500 border-l-0"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
